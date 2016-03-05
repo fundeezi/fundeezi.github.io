@@ -1,0 +1,363 @@
+@media screen and (max-width: 1230px) {
+    .nav ul li {
+        padding-left: 0;
+    }
+    .nav ul li a {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .campainstep ul li .image {
+        margin-left: 100px;
+        margin-right: 45px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+	.logo img {max-width: 200px;}
+	
+    .successidea [class*="col-sm-"] {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .successidea .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .innerbanner p {
+        font-size: 17px;
+    }
+    .sample-mobile {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .logo {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .nav {
+        width: 100%;
+        text-align: center;
+    }
+    .nav ul li {
+        display: inline-block;
+        float: none;
+    }
+    .banner {
+        padding-top: 31px;
+    }
+    .banner-text .button {
+        padding-bottom: 14px;
+    }
+	
+    .aboutsection,
+    .pricingsection,
+    .testimonialpart,
+    .customercontent,
+    .howtouseapp,
+    .faq,
+    .successidea,
+    .innerbanner,
+    .dealsonphone,
+    .howtosell-detail,
+    .easyways,
+    .tipsforsuccessful{
+        padding: 50px 0;
+    }
+    .aboutsection h2,
+    .benifitesection h2,
+    .testimonialpart h2,
+    .pricingsection h2,
+    .successidea h2,
+    .faq h2,
+    .howtouseapp h2,
+    .dealsonphone-sample h2,
+    .tipsforsuccessful h2{
+        font-size: 32px;
+    }
+    .benifitesection {
+        padding: 60px 0 0;
+    }
+    .benifitesection h2 {
+        margin-bottom: 45px;
+    }
+    .campainstep ul li {
+        margin: 50px 0;
+    }
+    .campainstep ul li .image,
+    .campainstep.merchandscon ul li .image{
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .campainstep ul li:nth-child(2n) .image {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+    .campainstep ul li h3 {
+        font-size: 25px;
+    }
+    .campainstep ul li .text,
+    .testimonialslide .carousel-inner .item,
+    .quicklink,
+    .getintouch,
+    .customercontent p,
+    .stepslist li .box .text,
+    .plan-box h3{
+        font-size: 15px;
+    }
+    .stepslist li .box .text,
+    .plan-box h3{
+        line-height: 1.4;
+    }
+    .customercontent p {
+        margin: 10px 0;
+    }
+    .carousel-pager {
+        margin-top: 25px;
+    }
+    .footerbottom h3 {
+        font-size: 18px;
+    }
+    .quicklink {
+        padding-left: 0;
+    }
+    .downloadappbtn a {
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .sample-mobile {
+        max-width: 100%;
+    }
+    .howtosell-textarea {
+        font-size: 15px;
+        padding-bottom: 25px;
+    }
+    .howtosell-textarea p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .textareaboxon {
+        margin-bottom: 30px;
+    }
+    .textareaboxon:last-child {
+        margin-bottom: 30px;
+    }
+    .textareaboxon p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .benifitesection .col-md-5 {
+        text-align: center;
+    }
+	.nav ul li { padding: 10px 0; }
+	.nav ul li.btnstyle { padding: 10px 0; }
+}
+@media screen and (max-width:767px){
+    .navbar-toggle .icon-bar {
+        background: #000;
+    }
+    .logo {
+        padding-right: 50px;
+        text-align: left;
+        margin-top: 7px;
+        margin-bottom: -23px;
+        max-width: 200px;
+    }
+    .header {
+        position: relative;
+    }
+    .navbar-toggle {
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
+    .nav {
+        width: auto;
+        clear: both;
+        float: none !important;
+        background: rgba(0,0, 0, 0.1);
+    }
+    .nav ul li {
+        float: none;
+        padding: 10px 0;
+        display: block;
+    }
+    .banner h2 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .banner p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .banner-text .button {
+        padding-top: 10px;
+    }
+    .banner-text .button a {
+        display: block;
+    }
+    .banner-text .downloadapp ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .banner-text .downloadapp ul li + li {
+        padding-left: 0;
+        border-left: 0;
+    }
+    .banner-text .downloadapp ul {
+        padding-top: 0;
+    }
+    .aboutsection h2, .benifitesection h2, .testimonialpart h2, .pricingsection h2, .successidea h2,
+    .howtouseapp h2{
+        font-size: 25px;
+    }
+    .successidea h2 {
+        margin-bottom: 25px;
+    }
+    .aboutsection p {
+        font-size: 15px;
+    }
+    .benifitesection {
+        padding-top: 30px;
+    }
+    .benefitelist ul li .image {
+        margin-right: 0;
+        float: none;
+        margin-bottom: 15px;
+        text-align: center;
+        background: none;
+    }
+    .benefitelist ul li .image img {
+        background: #507127;
+        border-radius: 8px;
+    }
+    .benefitelist ul li .text {
+        text-align: center;
+    }
+    .campainstep ul li .image {
+        float: none;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .campainstep ul li .text {
+        text-align: center;
+    }
+    .campainstep ul li h3 {
+        background-position: 50% 100%;
+    }
+    .campainstep ul li:nth-child(2n) .image {
+        margin-left: 0;
+        float: none;
+    }
+    .pricingsection .box {
+        margin-bottom: 20px;
+    }
+    .aboutsection, .pricingsection, .testimonialpart {
+        padding: 30px 0;
+    }
+    .carousel-pager li {
+        padding: 0 5px;
+    }
+    .footerbottom {
+        padding: 30px 0;
+        text-align: center;
+    }
+    .innerbanner {
+        padding: 30px 0;
+    }
+    .innerbanner .rightbtn {
+        float: none;
+        margin-bottom: 20px;
+    }
+    .innerbanner .rightbtn a {
+        text-align: center;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .getstarted-btn {
+        padding-top: 0;
+    }
+    .innerbanner p {
+        width: 100%;
+    }
+    .contactcontent,
+    .faqcontact,
+    .successidea{
+        padding: 30px 0;
+    }
+    .successidea .box {
+        margin-bottom: 25px;
+        padding: 15px;
+    }
+    .successidea .box .text {
+        padding-left: 0;
+        background: none;
+    }
+    .successidea .box .description {
+        font-size: 15px;
+    }
+    .howtouseapp {
+        padding-bottom: 0;
+    }
+    .customersuppert {
+        float: none;
+        margin-bottom: 20px;
+    }
+    .howtouseapp h2 {
+        margin-bottom: 15px;
+    }
+    .quicklink {
+        margin-bottom: 25px;
+    }
+    .getintouch .email,
+    .getintouch .phone{
+        background: none;
+    }
+    .dealsonphone-sample .box {
+        margin-bottom: 35px;
+    }
+    .planmain-box:after {
+        content: "";
+        clear: both;
+        display: block;
+        visibility: hidden;
+    }
+    .dealsonphone-sample .leftbtn {
+        float: none;
+    }
+    .dealsonphone-sample .leftbtn a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .easyways-textarea ul li {
+        width: 100%;
+    }
+    .easyways-textarea ul li .box-in {
+        margin-bottom: 20px;
+    }
+    .textareaboxon p {
+        float: none;
+        width: auto;
+        overflow: hidden;
+    }
+    .copyright {
+        margin-bottom: 25px;
+    }
+    .copyright br {
+        display: none;
+    }
+    .sample-mobile {
+        width: 100%;
+        text-align: center;
+    }
+    .sample-mobile img {
+        margin: 0 auto;
+    }
+}
