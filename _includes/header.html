@@ -1,7 +1,7 @@
 <header class="header">
   <div class="container clearfix">
     <div class="logo pull-left">
-      <a href="index.html">
+      <a href="/">
         <img src="images/logo.png" alt="">
       </a>
     </div>
@@ -14,11 +14,11 @@
     <nav id="bs-navbar" class="collapse navbar-collapse nav pull-right">
       {% assign current = page.url | downcase | split: '/' %}
       <ul>
-        <li><a {% if current[1] == 'fundraisers' %}class='active'{% endif %} href="fundraisers">Fundraisers</a></li>
-        <li><a {% if current[1] == 'merchants' %}class='active'{% endif %} href="merchants">Merchants</a></li>
-        <li><a {% if current[1] == 'customers' %}class='active'{% endif %} href="customers">Customers</a></li>
-        <li><a {% if current[1] == 'how-to-sell' %}class='active'{% endif %} href="how-to-sell">How To Sell</a></li>
-        <li><a {% if current[1] == 'contact' %}class='active'{% endif %} href="contact">Contact</a></li>
+        <li><a {% if current[1] == 'fundraisers.html' %}class='active'{% endif %} href="fundraisers">Fundraisers</a></li>
+        <li><a {% if current[1] == 'merchants.html' %}class='active'{% endif %} href="merchants">Merchants</a></li>
+        <li><a {% if current[1] == 'customers.html' %}class='active'{% endif %} href="customers">Customers</a></li>
+        <li><a {% if current[1] == 'how-to-sell.html' %}class='active'{% endif %} href="how-to-sell">How To Sell</a></li>
+        <li><a {% if current[1] == 'contact.html' %}class='active'{% endif %} href="contact">Contact</a></li>
         <li class="btnstyle"><a href="contact">Get Started</a></li>
       </ul>
     </nav>
