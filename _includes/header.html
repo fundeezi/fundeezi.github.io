@@ -1,0 +1,28 @@
+<header class="header">
+  <div class="container clearfix">
+    <div class="logo pull-left">
+      <a href="index.html">
+        <img src="images/logo.png" alt="">
+      </a>
+    </div>
+    <button aria-expanded="false" aria-controls="bs-navbar" data-target="#bs-navbar" data-toggle="collapse" type="button" class="navbar-toggle collapsed">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <nav id="bs-navbar" class="collapse navbar-collapse nav pull-right">
+      {% assign current = page.url | downcase | split: '/' %}
+      {{ current[1] }}
+      <ul>
+        <li><a {% if current[1] == 'index' %}class='active'{% endif %} href="index.html">Home</a></li>
+        <li><a {% if current[1] == 'fundraisers' %}class='active'{% endif %} href="fundraisers.html">Fundraisers</a></li>
+        <li><a {% if current[1] == 'merchants' %}class='active'{% endif %} href="merchants.html">Merchants</a></li>
+        <li><a {% if current[1] == 'customers' %}class='active'{% endif %} href="customers.html">Customers</a></li>
+        <li><a {% if current[1] == 'how-to-sell' %}class='active'{% endif %} href="how-to-sell.html">How To Sell</a></li>
+        <li><a {% if current[1] == 'contact' %}class='active'{% endif %} href="contact.html">Contact</a></li>
+        <li class="btnstyle"><a href="contact.html">Get Started</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
